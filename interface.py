@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load the trained YOLO model
-model = YOLOWorld('C:/Users/walee/Desktop/Insects_Project/runs/detect/train5/weights/best.pt')
+model = YOLOWorld('./best.pt')
 
 st.title("YOLO Object Detection - Webcam")
 run = st.checkbox("Run Webcam")
